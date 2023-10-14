@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(247, 230, 230);
+    position: relative;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    border-bottom: solid black 1px;
+}
+.nav h5{
+    font-size: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.5% 1.5%;
+    border: solid black 1px;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+#center{
+    height: calc(100% - 10%);
+    width: 100%;
+    /* background-color: red;  */
+    position: relative;
+    padding: 2% 2%;
+}
+.menu{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    font-size: 230%;
+}
+.scan{
+   position: absolute;
+   top: 90%;
+   left: 90%;
+   padding: 1% 1%;
+   background-color: white;
+   font-size: 240%;
+   border-radius: 30%;
+   -webkit-border-radius: 30%;
+   -moz-border-radius: 30%;
+   -ms-border-radius: 30%;
+   -o-border-radius: 30%;
+}
+#center h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 90px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top:1%;
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    z-index: 99;
+}
+#center h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 90px;
+    text-transform: uppercase;
+    position: absolute;
+    /* background-color: rgb(248, 4, 4); */
+    color: rgb(255, 255, 255);
+    left:49%;
+    color: transparent;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: white;
+    white-space: nowrap;
+    font-weight: 900;
+    
+    font-style: italic;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+}
+button{
+     padding: 2% 5%;
+     position: absolute;
+     right: 5%;
+     top: 23%;
+    
+     font-size: 130%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+     background-color: greenyellow;
+     text-transform: uppercase;
+     font-weight: bold;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     transform: rotate(-15deg);
+     -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+     -ms-transform: rotate(-15deg);
+     -o-transform: rotate(-15deg);
+}
+.button2{
+    padding: 2% 5%;
+    position: absolute;
+    right: 70%;
+    top: 80%;
+    font-size: 130%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+}
+.soaks1{
+    height: 35%;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+    transform: rotate(+17deg);
+    z-index: 99;
+    background-image: url(https://images.unsplash.com/photo-1613151848917-80e67f421fff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2tzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    -webkit-transform: rotate(+17deg);
+    -moz-transform: rotate(+17deg);
+    -ms-transform: rotate(+17deg);
+    -o-transform: rotate(+17deg);
+    border: 2px solid black;
+}
+.soaks1::after{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -5%;
+    background-position: center;
+    background-size: cover;
+    right: -10%;
+    background-image: url(https://images.unsplash.com/photo-1613151848917-80e67f421fff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2tzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    border: 2px solid black;
+}
+.soaks2{
+    height: 25%;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    position: absolute;
+    top: 61%;
+    left: 65%;
+    transform: rotate(-20deg);
+    z-index: 99;
+    background-image:
+    url(https://plus.unsplash.com/premium_photo-1664297793769-b1f4ceb6d823?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29ja3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    border: 2px solid black;
+}
+.soaks2::after{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -5%;
+    background-position: center;
+    background-size: cover;
+   left: -5%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664297793769-b1f4ceb6d823?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29ja3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    border: 2px solid black;
+}
+.soaks3{
+    height: 35%;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+    transform: rotate(+17deg);
+    z-index: 99;
+    background-image: url(https://images.unsplash.com/photo-1613151848917-80e67f421fff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2tzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    -webkit-transform: rotate(+17deg);
+    -moz-transform: rotate(+17deg);
+    -ms-transform: rotate(+17deg);
+    -o-transform: rotate(+17deg);
+    border: 2px solid black;
+}
+.soaks3::after{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -5%;
+    background-position: center;
+    background-size: cover;
+    right: -10%;
+    background-image: url(https://images.unsplash.com/photo-1613151848917-80e67f421fff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2tzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    border: 2px solid black;
+}
+.image{
+    position: absolute;
+    top: 55%;
+    width: 67%;
+    height: 65%;
+    /* background-color: red; */
+    left: 50%;
+    border-radius: 50%;
+    border: solid black 2px;
+    
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
